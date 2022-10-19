@@ -41,13 +41,34 @@ ul{
     right: 0;
     z-index: 0; */
     opacity: 1;
+    position:fixed ;
+    left: 270px;
+    top:0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.section.active{
+    z-index: 2;
+    opacity: 1;
+    animation: slideSection 1s ease;
+}
+@keyframes slideSection {
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translate(0%)
+    }
 }
 /* .hidden{
     display: none !important;
 } */
-.main-content{
+/* .main-content{
     padding-left: 270px;
-}
+} */
 .padd-15{
     padding-left: 15px;
     padding-right: 15px;
@@ -58,9 +79,9 @@ ul{
     /* background-color: red; */
     margin: auto;
 }
-.about, .service, .portfolio, .contact{
+/* .about, .service, .portfolio, .contact{
     margin-left: 260px;
-}
+} */
 .section .container{
     padding-top: 60px;
     padding-bottom: 70px;
@@ -633,12 +654,24 @@ textarea {
     .aside{
         left: -270px;
     } 
+    .aside .nav-toggler{
+        display: flex;
+        left: 30px;
+    }
+    .aside.open{
+        left:0;
+    }
+    .aside .nav-toggler.open{
+        left: 300px;
+    }
+    .section.open{
+        left: 270px;
+    }
+    .section{
+        left: 0;
+    }
     .about, .service, .portfolio, .contact{
         margin-left: 0px;
-    } 
-    .main-content{
-        padding-left: 0px;
-        /* margin-left: 0px; */
     } 
     .info-item p span{
         display: block;
