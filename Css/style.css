@@ -711,6 +711,17 @@ textarea {
     }
 }
 @media (max-width:767px){
+    .contact-title,
+    .section-title h2{
+        margin-top: 20px;
+    }
+
+    h3.hello,
+    h3.hello span,
+    h3.my-profession {
+        font-size: 22px;
+    }
+
     .contact .contact-form .col-6,
     .contact .contact-info-item,
     .portfolio .portfolio-item,
