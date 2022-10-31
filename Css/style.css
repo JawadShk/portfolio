@@ -355,6 +355,7 @@ h3.my-profession{
     color: var(--skin-color);
 }
 .about .about-content .about-text p{
+    text-align: justify;
     font-size: 16px;
     line-height: 25px;
     color: var(--text-black-700);
@@ -371,7 +372,7 @@ h3.my-profession{
 }
 .info-item{
     flex: 0 0 50%;
-    max-width: 50%;
+    max-width: 51%;
     /* background-color: red; */
 }
 .info-item p{
@@ -381,7 +382,7 @@ h3.my-profession{
     color: var(--text-black-900);
     border-bottom: 1px solid var(--bg-black-50);
 }
-.info-item p span{
+.info-item p span, .info-item p span a{
     font-weight: 400;
     color: var(--text-black-700);
     margin-left: 4px;
@@ -401,8 +402,8 @@ h3.my-profession{
     /* background-color: green ; */
 }
 .skill-item{
-    flex: 0 0 100%;
-    max-width: 100%;
+    flex: 0 0 90%;
+    max-width: 90%;
     margin-bottom: 20px;
 }
 .skill-item h5{
@@ -445,6 +446,9 @@ h3.my-profession{
     font-weight: 700;
     color: var(--text-black-900);
 }
+.exp-item{
+    padding-bottom: 5px !important;
+}
 .timeline-box{
     flex: 0 0 100%;
     max-width: 100%;
@@ -460,7 +464,7 @@ h3.my-profession{
 .timeline-item{
     position: relative;
     padding-left: 37px;
-    padding-bottom: 50px;
+    padding-bottom: 55px;
 }
 .timeline-item:last-child{
     padding-bottom: 0;
@@ -505,7 +509,7 @@ h3.my-profession{
     color: var(--text-black-700);
 }
 /* services */
-.service .service-item{
+/* .service .service-item{
     margin-bottom: 30px;
     flex: 0 0 33.33%;
     max-width: 33.33%;
@@ -554,7 +558,7 @@ h3.my-profession{
     font-size: 16px;
     color: var(--text-black-700);
     line-height: 25px;
-}
+} */
 
 /* portfolio  */
 .port-head{

@@ -1,7 +1,7 @@
 var typed = new Typed(".typing",{
     strings:["","Web Developer", "Programmer"],
-    typeSpeed:100,
-    BackSpeed:30,
+    typeSpeed:150,
+    BackSpeed:10,
     loop:true
 })
 
