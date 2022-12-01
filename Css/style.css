@@ -439,6 +439,7 @@ h3.my-profession{
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 50px;
+    margin-bottom: 25px;
 }
 .title{
     font-size: 24px;
